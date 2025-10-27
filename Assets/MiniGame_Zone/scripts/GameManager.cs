@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
@@ -11,8 +12,8 @@ public class GameManager : MonoBehaviour
    public static GameManager Instance { get { return gameManager; } }
 
    //UI연결
-   public Text scoreText;
-   public Text livesText;
+   public TextMeshProUGUI scoreText;
+   public TextMeshProUGUI livesText;
    public GameObject gameOverPanel;
    
    

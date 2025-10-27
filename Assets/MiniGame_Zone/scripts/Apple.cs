@@ -2,17 +2,21 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Apple : MonoBehaviour
+namespace MiniGame_Zone.Scripts
 {
-    // Start is called before the first frame update
-    void Start()
+    public class Apple : MonoBehaviour
     {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
+        private void OnTriggerEnter(Collider other) //나와 부딪힌 상대방의 정보 Collider other
+        {
+            if (other.CompareTag ("Player"))
+            {
+                if (GameManager.Instance != null)
+                {
+                    GameManager.Instance.AddScore(1);
+                }
+                Destroy(gameObject);
+            }
+        }
     }
 }
+
