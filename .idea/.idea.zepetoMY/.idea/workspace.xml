@@ -6,12 +6,12 @@
   <component name="ChangeListManager">
     <list default="true" id="c7368067-64c8-4801-b926-3fdf6e2e76a1" name="변경" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.zepetoMY/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.zepetoMY/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MiniGame_Zone/scripts/Apple.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MiniGame_Zone/scripts/Apple.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MiniGame_Zone/scripts/GameManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MiniGame_Zone/scripts/GameManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MiniGame_Zone/scripts/Poop.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MiniGame_Zone/scripts/Poop.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/mini_game.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/mini_game.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MiniGame_Zone/Obstacle &amp; Item/Poop.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MiniGame_Zone/Obstacle &amp; Item/Poop.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MiniGame_Zone/Obstacle &amp; Item/apple.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MiniGame_Zone/Obstacle &amp; Item/apple.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MiniGame_Zone/Obstacle &amp; Item/heart.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MiniGame_Zone/Obstacle &amp; Item/heart.png.meta" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,6 +23,7 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/MiniGame_Zone/scripts/GameManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/MiniGame_Zone/scripts/ItemObstacleManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/MiniGame_Zone/scripts/MiniGame_Player.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/MiniGame_Zone/scripts/Poop.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
@@ -112,7 +113,7 @@
       <option name="presentableId" value="Default" />
       <updated>1761548316740</updated>
       <workItem from="1761548317875" duration="3016000" />
-      <workItem from="1761552767603" duration="994000" />
+      <workItem from="1761552767603" duration="3284000" />
     </task>
     <servers />
   </component>
