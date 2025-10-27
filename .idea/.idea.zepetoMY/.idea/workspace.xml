@@ -6,11 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="c7368067-64c8-4801-b926-3fdf6e2e76a1" name="변경" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.zepetoMY/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.zepetoMY/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MiniGame_Zone/_Assets/prefabs/Poop.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MiniGame_Zone/_Assets/prefabs/Poop.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MiniGame_Zone/_Assets/prefabs/apple.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MiniGame_Zone/_Assets/prefabs/apple.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MiniGame_Zone/scripts/Apple.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MiniGame_Zone/scripts/Apple.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MiniGame_Zone/scripts/MiniGame_Player.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MiniGame_Zone/scripts/MiniGame_Player.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/mini_game.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/mini_game.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/real_room.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/real_room.unity" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -112,7 +108,7 @@
       <option name="presentableId" value="Default" />
       <updated>1761548316740</updated>
       <workItem from="1761548317875" duration="3016000" />
-      <workItem from="1761552767603" duration="7965000" />
+      <workItem from="1761552767603" duration="9033000" />
     </task>
     <servers />
   </component>
