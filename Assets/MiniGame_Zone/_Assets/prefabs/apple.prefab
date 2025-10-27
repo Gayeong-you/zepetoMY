@@ -10,8 +10,8 @@ GameObject:
   m_Component:
   - component: {fileID: 3760994807554769023}
   - component: {fileID: 5130033686562610306}
-  - component: {fileID: 915560605113460629}
   - component: {fileID: -5193346259278722582}
+  - component: {fileID: 5088571064077050387}
   m_Layer: 0
   m_Name: apple
   m_TagString: Untagged
@@ -28,7 +28,7 @@ Transform:
   m_GameObject: {fileID: 1351326274842605462}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.252, y: -0.245, z: 0}
+  m_LocalPosition: {x: 0.258, y: -0.245, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -86,8 +86,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!60 &915560605113460629
-PolygonCollider2D:
+--- !u!114 &-5193346259278722582
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1351326274842605462}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 114f3178ce73845e88f15ae715f0a8d9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!70 &5088571064077050387
+CapsuleCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -118,64 +130,6 @@ PolygonCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1.2266667, y: 1.2266667}
-    newSize: {x: 0.96, y: 0.96}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  m_Points:
-    m_Paths:
-    - - {x: 0.20666668, y: 0.0016666667}
-      - {x: 0.20583335, y: 0.040833335}
-      - {x: 0.19250001, y: 0.08583333}
-      - {x: 0.15083334, y: 0.12833333}
-      - {x: 0.10333334, y: 0.14750001}
-      - {x: 0.0225, y: 0.15083334}
-      - {x: 0.0425, y: 0.15916666}
-      - {x: 0.0625, y: 0.205}
-      - {x: 0.0625, y: 0.2675}
-      - {x: 0.015000001, y: 0.2675}
-      - {x: 0.00083333335, y: 0.2275}
-      - {x: -0.015833333, y: 0.24666667}
-      - {x: -0.0575, y: 0.2675}
-      - {x: -0.165, y: 0.2675}
-      - {x: -0.16916667, y: 0.22250001}
-      - {x: -0.14333333, y: 0.20166667}
-      - {x: -0.12666667, y: 0.1825}
-      - {x: -0.0825, y: 0.15916666}
-      - {x: -0.02, y: 0.16}
-      - {x: -0.0016666667, y: 0.14500001}
-      - {x: -0.1025, y: 0.14500001}
-      - {x: -0.10416667, y: 0.14333333}
-      - {x: -0.14416666, y: 0.125}
-      - {x: -0.1875, y: 0.085}
-      - {x: -0.20666668, y: 0.040833335}
-      - {x: -0.20666668, y: -0.1225}
-      - {x: -0.205, y: -0.12416667}
-      - {x: -0.18583333, y: -0.16333334}
-      - {x: -0.18416667, y: -0.165}
-      - {x: -0.16666667, y: -0.205}
-      - {x: -0.12666667, y: -0.2475}
-      - {x: -0.0925, y: -0.2675}
-      - {x: 0.086666666, y: -0.2675}
-      - {x: 0.125, y: -0.24666667}
-      - {x: 0.165, y: -0.20916668}
-      - {x: 0.20666668, y: -0.12833333}
-  m_UseDelaunayMesh: 0
---- !u!114 &-5193346259278722582
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1351326274842605462}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 114f3178ce73845e88f15ae715f0a8d9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
+  m_Offset: {x: -0.01238063, y: 0.0309515}
+  m_Size: {x: 0.8304871, y: 1.1647637}
+  m_Direction: 0
