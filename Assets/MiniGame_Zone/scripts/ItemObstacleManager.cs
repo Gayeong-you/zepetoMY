@@ -13,7 +13,7 @@ namespace MiniGame_Zone.scripts
 
         [Header("2. 생성 위치 및 시간 설정")] 
         
-        public float lastSpawnX = 15f; //게임이 시작되자마자 플레이어와 부딪히지 않게 안전간격으로 생성
+        public float lastSpawnX = 0; //게임이 시작되자마자 플레이어와 부딪히지 않게 안전간격으로 생성
         
         //일정한 시간 간격으로 생성
         public float fixedSpawnInterval = 2f;

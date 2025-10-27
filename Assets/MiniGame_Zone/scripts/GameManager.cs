@@ -39,8 +39,8 @@ public class GameManager : MonoBehaviour
 
    void UpdateUI()
    {
-      if(scoreText != null)scoreText.text = "점수"+currentScore;
-      if(livesText !=null)livesText.text="생명"+currentLives;
+      if(scoreText != null)scoreText.text = "점수:"+currentScore;
+      if(livesText !=null)livesText.text="heart:"+currentLives;
    }
 
    public void AddScore(int score) //사과가 호출(점수+1)
