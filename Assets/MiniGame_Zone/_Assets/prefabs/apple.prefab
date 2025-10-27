@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 3760994807554769023}
   - component: {fileID: 5130033686562610306}
   - component: {fileID: 915560605113460629}
+  - component: {fileID: -5193346259278722582}
   m_Layer: 0
   m_Name: apple
   m_TagString: Untagged
@@ -166,3 +167,15 @@ PolygonCollider2D:
       - {x: 0.165, y: -0.20916668}
       - {x: 0.20666668, y: -0.12833333}
   m_UseDelaunayMesh: 0
+--- !u!114 &-5193346259278722582
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1351326274842605462}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 114f3178ce73845e88f15ae715f0a8d9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

@@ -410,7 +410,7 @@ GameObject:
   - component: {fileID: 546850140}
   m_Layer: 0
   m_Name: Player
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -491,8 +491,8 @@ Rigidbody2D:
     m_Bits: 0
   m_Interpolate: 0
   m_SleepingMode: 1
-  m_CollisionDetection: 0
-  m_Constraints: 0
+  m_CollisionDetection: 1
+  m_Constraints: 4
 --- !u!114 &546850140
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -505,7 +505,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f28660325be3c4b34bd30b190f535d21, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  flapForce: 6
+  flapForce: 5
   forwardSpeed: 3
   isDead: 0
   godMode: 0
@@ -842,7 +842,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 449.99994}
-  m_SizeDelta: {x: 50, y: 1000}
+  m_SizeDelta: {x: 1000, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &842959809
 MonoBehaviour:
@@ -1723,7 +1723,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 2073291212}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 587f36ec9c0034c07ae3b44c4631f68f, type: 3}
+  m_Script: {fileID: 11500000, guid: f73490a2533fe428985bb073f285ec22, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &2126243156

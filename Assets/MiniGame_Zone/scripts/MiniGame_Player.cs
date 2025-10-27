@@ -8,7 +8,7 @@ public class MiniGame_Player : MonoBehaviour
     Animator animator;
     Rigidbody2D _rigidbody;
 
-    public float flapForce = 6f; //점프하는 힘
+    public float flapForce = 5f; //점프하는 힘
     public float forwardSpeed = 3f; //앞으로 나아가는 힘
     public bool isDead = false;
     private float deathCooldown = 0f; //바로 죽는게 아닌, 일정 시간 있다가 죽을 수 있도록
@@ -60,7 +60,7 @@ public class MiniGame_Player : MonoBehaviour
 
         if (isFlap) //isFlap이 true일 경우
         {
-            velocity.y += flapForce;
+            velocity.y = flapForce;
             isFlap = false;
         }
         
