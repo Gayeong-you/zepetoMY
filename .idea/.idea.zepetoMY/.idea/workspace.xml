@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c7368067-64c8-4801-b926-3fdf6e2e76a1" name="변경" comment="">
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/hidden_street.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/hidden_street.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/mini_game.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/mini_game.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
-    </list>
+    <list default="true" id="c7368067-64c8-4801-b926-3fdf6e2e76a1" name="변경" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -110,7 +106,7 @@
       <option name="presentableId" value="Default" />
       <updated>1761548316740</updated>
       <workItem from="1761548317875" duration="3016000" />
-      <workItem from="1761552767603" duration="16561000" />
+      <workItem from="1761552767603" duration="17195000" />
     </task>
     <servers />
   </component>
