@@ -54,8 +54,8 @@ namespace MiniGame_Zone.scripts
 
         private void SpawnPoops()
         {
-            int count = Random.Range(1, 4); //응가 랜덤갯수결정(1~3개). 랜덤레인지는 마지막숫자를 미포함한다. 배열과 마찬가지로!
-            float spawnX = lastSpawnX + Random.Range(8f, 12f);
+            int count = Random.Range(1, 6); //응가 랜덤갯수결정(1~3개). 랜덤레인지는 마지막숫자를 미포함한다. 배열과 마찬가지로!
+            float spawnX = lastSpawnX + Random.Range(1f, 5f);
 
             for (int i = 0; i < count; i++)
             {
