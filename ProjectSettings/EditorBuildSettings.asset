@@ -6,6 +6,12 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Scenes/real_room.unity
+    guid: 5016f7af524af42d8b638f4af998c1b2
+  - enabled: 1
+    path: Assets/Scenes/hidden_street.unity
+    guid: e1f959c7fb896407d8bddb024148337c
+  - enabled: 1
     path: Assets/Scenes/witch_room.unity
     guid: 2cda990e2423bbf4892e6590ba056729
   - enabled: 1
